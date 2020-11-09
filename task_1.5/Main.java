@@ -13,12 +13,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        float a = scan.nextInt();
-        float b = (9/5);
-        float c = 32;
-        System.out.println(a*b+c);
+        int a = scan.nextInt();
+        double b = 1.8;
+        System.out.println((a*b)+32);
     }
 }
-
-/*
-Не разобрался до конца с делением пока что это оставлю*/
