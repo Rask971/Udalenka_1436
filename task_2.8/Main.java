@@ -7,7 +7,7 @@ public class Main {
         int[] nums = {2, 3, 4, 5};
         int sum = 0;
         for (int i = 0; i < 4; i++) {
-            sum+= nums[i];
+            sum*= nums[i];
         }
         System.out.println(sum);
     }
